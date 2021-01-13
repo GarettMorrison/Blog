@@ -7,3 +7,6 @@
 [submodule "Blog/themes/ananke"]
 	path = Blog/themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "Blog/themes/hugo-theme-hello-friend-ng"]
+	path = Blog/themes/hugo-theme-hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git

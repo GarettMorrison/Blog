@@ -1,4 +1,4 @@
 baseURL = "https://garettmorrison.net/"
 languageCode = "en-us"
 title = "Garett Morrison Test Site"
-theme = "ananke"
+theme = "hugo-theme-hello-friend-ng"
