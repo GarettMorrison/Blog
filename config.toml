@@ -1,0 +1,4 @@
+baseURL = "https://garettmorrison.net/"
+languageCode = "en-us"
+title = "Garett Morrison"
+theme = "hugo-theme-hello-friend-ng"
