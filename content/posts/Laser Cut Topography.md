@@ -13,6 +13,6 @@ The most challenging part of the project was locating a usable heightmap image. 
 
 {{< image src="/img/topo/side_shot.jpg" alt="Side shot up" position="middle" style="border-radius: 8px;" >}}
 
-I was later asked to reproduce the project for a map of Texas for an installation in the Zachry Engineering Building. While testing my script I generated files for one of my favorite ridiculous creations: Tall Texas.
+I was later asked to reproduce the project for a map of Texas for an installation in the Zachry Engineering Building. While testing my script I generated files for one of my favorite ridiculous creations, Tall Texas, which I couldn't resist cutting out.
 
 {{< image src="/img/topo/Tall_Texas.jpg" alt="Tall Texas" position="middle" style="border-radius: 8px;" >}}
