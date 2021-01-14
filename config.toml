@@ -34,6 +34,27 @@ paginate     = 10
     tag      = "tags"
     series   = "series"
 
+
+  # Set a background for the homepage
+  backgroundImage = "assets/cyberFoliage.png"
+
+
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url  = "garettm123@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/GarettMorrison"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/garett-morrison-666595166"
+
+
+
 [languages]
   [languages.en]
     title = "Garett Morrison"
@@ -51,12 +72,13 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+
   [[menu.main]]
     identifier = "blog"
     name       = " Projects"
     url        = "/posts"
-
-  # [[menu.main]]
-  #   identifier = "Info"
-  #   name       = " Info"
-  #   url        = "/info"
