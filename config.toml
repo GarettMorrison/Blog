@@ -43,7 +43,7 @@ paginate     = 10
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "garettm123@gmail.com"
+    url  = "mailto:garettm123@gmail.com"
 
   [[params.social]]
     name = "github"
@@ -82,3 +82,9 @@ paginate     = 10
     identifier = "blog"
     name       = " Projects"
     url        = "/posts"
+    
+  # [[menu.main]]
+  #   identifier = "test"
+  #   name       = " Test"
+  #   url        = "test/"
+
