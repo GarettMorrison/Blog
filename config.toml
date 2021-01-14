@@ -2,6 +2,7 @@ baseURL = "https://garettmorrison.net/"
 languageCode = "en-us"
 title = "Garett Morrison"
 theme = "hello-friend-ng"
+themesDir = "themes/"
 
 paginate     = 10
 
@@ -19,9 +20,9 @@ paginate     = 10
 
   # Enable sharing buttons, if you linke
   enableSharingButtons = true
-
+  
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "My blog"
   keywords = "homepage, blog"
   images = [""]
 
@@ -36,7 +37,7 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "Garett Morrison"
-    subtitle = " - Personal Blog"
+    subtitle = "Personal Blog"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -54,3 +55,8 @@ paginate     = 10
     identifier = "blog"
     name       = " Projects"
     url        = "/posts"
+
+  # [[menu.main]]
+  #   identifier = "Info"
+  #   name       = " Info"
+  #   url        = "/info"
