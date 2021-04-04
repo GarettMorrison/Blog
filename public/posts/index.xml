@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Garett Morrison</title>
+        <link>https://garettmorrison.net/posts/</link>
+        <description>Recent content in Posts on Garett Morrison</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 13 Jan 2021 00:51:29 -0600</lastBuildDate>
+        <atom:link href="https://garettmorrison.net/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Laser Cut Topographical Map</title>
+            <link>https://garettmorrison.net/posts/laser-cut-topography/</link>
+            <pubDate>Wed, 13 Jan 2021 00:51:29 -0600</pubDate>
+            
+            <guid>https://garettmorrison.net/posts/laser-cut-topography/</guid>
+            <description>My family has a long and illustrious history of going backpacking in Big Bend National Park. For my sister&amp;rsquo;s birthday last year, I laser cut her a 3D topographical map of The Chisos Basin, one of our favorite locations in the park. This is a precise scale model, modeled by interpreting real world data with python.
+The most challenging part of the project was locating a usable heightmap image. I dug through mapping sites and United States Geological Survey data, but what I ultimately used was terrain.</description>
+            <content type="html"><![CDATA[
+    <img src="/img/topo/close_up.jpg"  alt="Close up"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>My family has a long and illustrious history of going backpacking in Big Bend National Park. For my sister&rsquo;s birthday last year, I laser cut her a 3D topographical map of The Chisos Basin, one of our favorite locations in the park. This is a precise scale model, modeled by interpreting real world data with python.</p>
+
+    <img src="/img/topo/wide_shot.jpg"  alt="Wide shot up"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>The most challenging part of the project was locating a usable heightmap image. I dug through mapping sites and United States Geological Survey data, but what I ultimately used was <a href="http://terrain.party" title="terrain.party">terrain.party</a>, a website for exporting real world data for cities skylines maps. I calculated the scale of the image by comparing the distances between cliff faces to the scale on google maps. From this I wrote a <a href="https://github.com/GarettMorrison/HeightMapSplicer" title="github.com/GarettMorrison/HeightMapSplicer">python script</a> using Pillow and some geometry to generate an image of each layer side by side, which I fed into a DXF <a href="https://cloudconvert.com/dxf-to-svg" title="cloudconvert.com">converter</a>, which produced a cuttable file. The final product is a little under 2 feet square, cut from hardboard.</p>
+
+    <img src="/img/topo/side_shot.jpg"  alt="Side shot up"  class="middle"  style="border-radius: 8px;"  />
+
+
+<p>I was later asked to reproduce the project for a map of Texas for an installation in the Zachry Engineering Building. While testing my script I generated files for one of my favorite ridiculous creations, Tall Texas, which I couldn&rsquo;t resist cutting out.</p>
+
+    <img src="/img/topo/Tall_Texas.jpg"  alt="Tall Texas"  class="middle"  style="border-radius: 8px;"  />
+
+
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
