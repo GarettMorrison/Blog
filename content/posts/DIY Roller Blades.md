@@ -1,6 +1,6 @@
 ---
 title: "DIY Roller Blades"
-date: 2021-03-31
+date: 2021-04-04
 draft: false
 ---
 
@@ -42,7 +42,7 @@ As is usual with my personal projects, I wanted to keep the budget as cheap as p
 
 As is apparent from the concerning crack at the end of the clip, V1 was destined for a short lifespan. On my next ride one of the calf supports snapped, and with it my hopes of not spending another afternoon waiting for wood to burn and glue to dry. 
 
-With Version 2, I intended to resolve the oversights and errors of the first. In addition to fixing the handful of CAD errors making assembly frustrating, I added a second, interior, calf strap to reduce stress on the first one. By making spacers, I was able to more precisely adjust the fit of the blades to it's user. I also adjusted the locations of the foot straps, to more securely lock down the wearers shoe to the structure. The result was a more comfortable, more reliable roller blade. 
+With Version 2, I intended to resolve the oversights and errors of the first. In addition to fixing the handful of CAD errors making assembly frustrating, I added a second, interior, calf strap to reduce stress on the first one. By making spacers, I was able to more precisely adjust the fit of the blades to their user. I also adjusted the locations of the foot straps, to more securely lock down the wearer's shoe to the structure. The result was a more comfortable, more reliable roller blade. 
 
 
 {{< rawhtml >}}
@@ -59,4 +59,4 @@ With Version 2, I intended to resolve the oversights and errors of the first. In
 {{< /rawhtml >}}
 
 
-I consider this project to be a resounding success, and have used them a number of times wandering around my neighborhood. I may create a version 3, with proper brakes and cushioning that doesn't require you to wrap a washcloth around your legs, but for now I am just happy that I managed to create something usable for \~50$. 
+I consider this project to be a resounding success, and have used them a number of times wandering around my neighborhood. I may create a version 3, with proper brakes and cushioning that doesn't require you to wrap a washcloth around your legs, but for now I am just happy that I managed to create something usable for \~$50. 
