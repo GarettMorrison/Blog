@@ -21,7 +21,7 @@ function setup() {
   var height = windowHeight;
   var sketchCanvas = createCanvas(width,height);
   console.log(windowWidth)
-  sketchCanvas.parent("GOL_Area")
+  // sketchCanvas.parent("GOL_Area")
 
   
 

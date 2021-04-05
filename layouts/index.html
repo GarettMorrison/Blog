@@ -1,13 +1,14 @@
+
 {{ define "body" }}
     <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .Site.Params.background_image }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 {{ end }}
 
 {{ define "main" }}
-    <main aria-role="main" id=GOL_Area>
+    <main aria-role="main">
         <!-- Start of custom stuff -->
         <style>
         canvas{
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -16,10 +17,10 @@
             z-index: -3 !important;
         }
         </style>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
         <script src="/js/sketch.js"></script>
         <!-- End of custom stuff -->
+        
         <div>
             <h1>{{ .Site.Title }}</h1>
             {{- with .Site.Params.homeSubtitle }}
