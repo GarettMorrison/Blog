@@ -9,14 +9,30 @@ draft: false
 .column {
   float: left;
   width: 50%;
-  padding: 5px;
+  /*padding: 0.5%;*/
 }
 
-.row::after {
+.row::after{
   content: "";
   clear: both;
   display: table;
 }
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 88.888888888%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 </style>
 {{< /rawhtml >}}
 
@@ -32,9 +48,8 @@ As is usual with my personal projects, I wanted to keep the budget as cheap as p
 		<img src="/img/roller/Roller_V1_Front.jpg" alt="Front" style="width:100%">
 		<img src="/img/roller/Roller_V1_Side.jpg" alt="Side" style="width:100%">
 	</div>
-		<div class="column">
-		<iframe width="400" height="700" src="https://www.youtube.com/embed/5Qt2Pd4UqJQ?mute=1">
-		</iframe>	
+	<div class="column resp-container">
+		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/5Qt2Pd4UqJQ?mute=1" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>	
 	</div>
 </div>
 {{< /rawhtml >}}
@@ -51,9 +66,8 @@ With Version 2, I intended to resolve the oversights and errors of the first. In
 		<img src="/img/roller/Roller_V2_Front.jpg" alt="Front" style="width:100%">
 		<img src="/img/roller/Roller_V2_Side.jpg" alt="Side" style="width:100%">
 	</div>
-		<div class="column">
-		<iframe width="400" height="700" src="https://www.youtube.com/embed/fzb1kxH1oY4?mute=1">
-		</iframe>	
+	<div class="column resp-container">
+		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/fzb1kxH1oY4?mute=1" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>	
 	</div>
 </div>
 {{< /rawhtml >}}

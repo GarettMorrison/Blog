@@ -7,10 +7,10 @@ themesDir = "themes/"
 paginate     = 10
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  # dateform        = "Jan 2, 2006"
+  # dateformShort   = "Jan 2"
+  # dateformNum     = "2006-01-02"
+  # dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
   homeSubtitle = "Personal Blog"
@@ -22,7 +22,7 @@ paginate     = 10
   enableSharingButtons = true
   
   # Metadata mostly used in document's head
-  description = "My blog"
+  description = "Personal blog"
   keywords = "homepage, blog"
   images = [""]
 

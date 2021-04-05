@@ -1,4 +1,5 @@
 function makeDoubleArray(columns, rows){
+  console.log(columns)
 	let arr = new Array(columns);
 	for(let i = 0; i < arr.length; i++){
 		arr[i] = new Array(rows);
@@ -15,10 +16,15 @@ let resolution = 10;
 
 
 function setup() {
-  createCanvas(1600,800);
+  console.log("Startup Game Of Life")
 
-  columns = width / resolution;
-  rows = height / resolution;
+  width = floor(windowWidth);
+  height = floor(windowHeight)
+  createCanvas(width, height);  
+  
+
+  columns = floor(width / resolution);
+  rows = floor(height / resolution);
 
   grid = makeDoubleArray(columns,rows)
   for(let i = 0; i < columns; i++){
@@ -29,15 +35,16 @@ function setup() {
 }
 
 function draw() {
-	background(0);
+background("#232425");
 
 for(let i = 0; i < columns; i++){
   	for(let j = 0; j <rows; j++){
   		let x = i * resolution;
   		let y = j * resolution;
   		if(grid[i][j] == 1){
-  			fill(255);
-  			stroke(0);
+        c = color("#1b1c1d")
+  			fill(c);
+  			stroke(c);
   			rect(x, y, resolution - 1, resolution - 1)
   			}
     	}
