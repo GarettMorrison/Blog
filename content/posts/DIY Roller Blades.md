@@ -6,23 +6,33 @@ draft: false
 
 {{< rawhtml >}}
 <style>
-.column {
-  float: left;
-  width: 50%;
-  /*padding: 0.5%;*/
-}
-
 .row::after{
   content: "";
   clear: both;
   display: table;
 }
 
-.resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 88.888888888%;
+.columnLeft {
+	float: left;
+	width: 47.05882%;
+
+	position: relative;
+	overflow: hidden;
+	/*padding-right: 0.5;*/
 }
+
+
+.columnRight {
+	float: left;
+	width: 52.94118%;
+	
+	position: relative;
+	overflow: hidden;
+	/*padding-left: 0.5;*/
+	padding-top: 94.11765%;
+}
+
+
 
 .resp-iframe {
     position: absolute;
@@ -44,11 +54,11 @@ As is usual with my personal projects, I wanted to keep the budget as cheap as p
 
 {{< rawhtml >}}
 <div class="row">
-	<div class="column">
+	<div class="columnLeft">
 		<img src="/img/roller/Roller_V1_Front.jpg" alt="Front" style="width:100%">
 		<img src="/img/roller/Roller_V1_Side.jpg" alt="Side" style="width:100%">
 	</div>
-	<div class="column resp-container">
+	<div class="columnRight">
 		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/5Qt2Pd4UqJQ?mute=1" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>	
 	</div>
 </div>
@@ -62,11 +72,11 @@ With Version 2, I intended to resolve the oversights and errors of the first. In
 
 {{< rawhtml >}}
 <div class="row">
-	<div class="column">
+	<div class="columnLeft">
 		<img src="/img/roller/Roller_V2_Front.jpg" alt="Front" style="width:100%">
 		<img src="/img/roller/Roller_V2_Side.jpg" alt="Side" style="width:100%">
 	</div>
-	<div class="column resp-container">
+	<div class="columnRight">
 		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/fzb1kxH1oY4?mute=1" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>	
 	</div>
 </div>
