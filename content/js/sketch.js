@@ -11,8 +11,8 @@ let rows;
 let grid;
 let resolution = 5;
 
-let headerColor
-let bodyColor
+let deadColor
+let aliveColor
 
 
 function setup() {
@@ -40,32 +40,31 @@ function setup() {
 
 
  
- bodyColor = "#fafafa";
- headerColor = "#fff";
+ aliveColor = "#fafafa";
+ deadColor = "#fff";
 
- bodyColor = "#1b1c1d";
- headerColor = "#232425";
+ aliveColor = "#1b1c1d";
+ deadColor = "#232425";
 
- console.log(document.body.background)
 
 // element = document.querySelector('.header')
 // style = getComputedStyle(element)
-// headerColor = style.backgroundColor //the RGB value
+// deadColor = style.backgroundColor //the RGB value
 
- // headerColor = document.querySelector("header").style;
+ // deadColor = document.querySelector("header").style;
 
- // console.log("sectHeader: " + str(headerColor));
+ // console.log("sectHeader: " + str(deadColor));
 
 
 // element = document.querySelector('@mediaf')
 // style = getComputedStyle(element)
-// bodyColor = style.backgroundColor //the RGB value
+// aliveColor = style.backgroundColor //the RGB value
 
- // bodyColor = document.getElementById("sectMain").style.color
-  // bodyColor = document.body;
+ // aliveColor = document.getElementById("sectMain").style.color
+  // aliveColor = document.body;
 
- // console.log("sectMain: " + str(bodyColor));
- // console.log(bodyColor);
+ // console.log("sectMain: " + str(aliveColor));
+ // console.log(aliveColor);
 
   // const metas = document.getElementsByTagName('meta');
 
@@ -77,22 +76,30 @@ function setup() {
   //   }
   // }
 
-  element = document.querySelector("h1")
-  console.log(element.style)
+  para = document.getElementsByClassName("header")[0];
+  element = window.getComputedStyle(para);
+  aliveColor = element.backgroundColor;
+
+  para = document.getElementsByTagName("body")[0];
+  element = window.getComputedStyle(para);
+  deadColor = element.backgroundColor;
+
+  console.log("deadColor " + str(deadColor));
+  console.log("aliveColor " + str(aliveColor));
 
 
 }
 
 function draw() {
-background(headerColor);
+background(deadColor);
     
 for(let i = 0; i < columns; i++){
   	for(let j = 0; j <rows; j++){
   		let x = i * resolution;
   		let y = j * resolution;
   		if(grid[i][j] == 1){
-  			fill(bodyColor);
-  			stroke(bodyColor);
+  			fill(aliveColor);
+  			stroke(aliveColor);
   			rect(x, y, resolution - 1, resolution - 1)
   			}
     	}
