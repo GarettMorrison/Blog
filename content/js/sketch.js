@@ -16,7 +16,7 @@ let aliveColor
 
 
 function setup() {
-  console.log("Startup Game Of Life")
+  // console.log("Startup Game Of Life")
 
   var width = windowWidth;
   var height = windowHeight;
@@ -84,8 +84,8 @@ function setup() {
   element = window.getComputedStyle(para);
   deadColor = element.backgroundColor;
 
-  console.log("deadColor " + str(deadColor));
-  console.log("aliveColor " + str(aliveColor));
+  // console.log("deadColor " + str(deadColor));
+  // console.log("aliveColor " + str(aliveColor));
 
 
 }
