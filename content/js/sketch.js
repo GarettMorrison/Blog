@@ -11,7 +11,8 @@ let rows;
 let grid;
 let resolution = 5;
 
-
+let headerColor
+let bodyColor
 
 
 function setup() {
@@ -20,7 +21,6 @@ function setup() {
   var width = windowWidth;
   var height = windowHeight;
   var sketchCanvas = createCanvas(width,height);
-  console.log(windowWidth)
   // sketchCanvas.parent("GOL_Area")
 
   
@@ -34,19 +34,65 @@ function setup() {
   		grid[i][j] = floor(random(2));
   	}
   }
+
+
+
+
+
+ 
+ bodyColor = "#fafafa";
+ headerColor = "#fff";
+
+ bodyColor = "#1b1c1d";
+ headerColor = "#232425";
+
+ console.log(document.body.background)
+
+// element = document.querySelector('.header')
+// style = getComputedStyle(element)
+// headerColor = style.backgroundColor //the RGB value
+
+ // headerColor = document.querySelector("header").style;
+
+ // console.log("sectHeader: " + str(headerColor));
+
+
+// element = document.querySelector('@mediaf')
+// style = getComputedStyle(element)
+// bodyColor = style.backgroundColor //the RGB value
+
+ // bodyColor = document.getElementById("sectMain").style.color
+  // bodyColor = document.body;
+
+ // console.log("sectMain: " + str(bodyColor));
+ // console.log(bodyColor);
+
+  // const metas = document.getElementsByTagName('meta');
+
+  // for (let i = 0; i < metas.length; i++) {
+  //   if (metas[i].getAttribute('name') === "theme-color"){
+  //     console.log(metas[i])
+  //     console.log(metas[i].getAttribute('name'))
+  //     console.log(metas[i].getAttribute('content'));
+  //   }
+  // }
+
+  element = document.querySelector("h1")
+  console.log(element.style)
+
+
 }
 
 function draw() {
-background("#232425");
+background(headerColor);
     
 for(let i = 0; i < columns; i++){
   	for(let j = 0; j <rows; j++){
   		let x = i * resolution;
   		let y = j * resolution;
   		if(grid[i][j] == 1){
-        c = color("#1b1c1d")
-  			fill(c);
-  			stroke(c);
+  			fill(bodyColor);
+  			stroke(bodyColor);
   			rect(x, y, resolution - 1, resolution - 1)
   			}
     	}

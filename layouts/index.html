@@ -1,26 +1,10 @@
 
 {{ define "body" }}
-    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .Site.Params.background_image }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 {{ end }}
 
 {{ define "main" }}
-    <main aria-role="main">
-        <!-- Start of custom stuff -->
-        <style>
-        canvas{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-            z-index: -3 !important;
-        }
-        </style>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
-        <script src="/js/sketch.js"></script>
-        <!-- End of custom stuff -->
-        
+    <main aria-role="main" id="sectMain">      
         <div>
             <h1>{{ .Site.Title }}</h1>
             {{- with .Site.Params.homeSubtitle }}
@@ -33,5 +17,23 @@
                 </div>
             {{- end }}
         </div>
+        
+        <!-- Start of custom stuff -->
+        <style>
+        canvas{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            z-index: -3 !important;
+        }
+        </style>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+        <!-- <script src="/js/sketch.js"></script> -->
+        <!-- End of custom stuff -->
     </main>
+
 {{ end }}
