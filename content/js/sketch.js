@@ -36,17 +36,6 @@ function setup() {
   }
 
 
-
-
-
- 
- aliveColor = "#fafafa";
- deadColor = "#fff";
-
- aliveColor = "#1b1c1d";
- deadColor = "#232425";
-
-
 // element = document.querySelector('.header')
 // style = getComputedStyle(element)
 // deadColor = style.backgroundColor //the RGB value
@@ -76,13 +65,7 @@ function setup() {
   //   }
   // }
 
-  para = document.getElementsByClassName("header")[0];
-  element = window.getComputedStyle(para);
-  aliveColor = element.backgroundColor;
 
-  para = document.getElementsByTagName("body")[0];
-  element = window.getComputedStyle(para);
-  deadColor = element.backgroundColor;
 
   // console.log("deadColor " + str(deadColor));
   // console.log("aliveColor " + str(aliveColor));
@@ -91,6 +74,15 @@ function setup() {
 }
 
 function draw() {
+
+para = document.getElementsByClassName("header")[0];
+element = window.getComputedStyle(para);
+aliveColor = element.backgroundColor;
+
+para = document.getElementsByTagName("body")[0];
+element = window.getComputedStyle(para);
+deadColor = element.backgroundColor;
+  
 background(deadColor);
     
 for(let i = 0; i < columns; i++){
