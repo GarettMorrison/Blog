@@ -21,6 +21,7 @@ function setup() {
   var width = windowWidth;
   var height = windowHeight;
   var sketchCanvas = createCanvas(width,height);
+  sketchCanvas.id('Game_Of_Life');
   // sketchCanvas.parent("GOL_Area")
 
   
