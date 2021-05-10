@@ -46,6 +46,10 @@ paginate     = 10
     url  = "https://github.com/GarettMorrison"
 
   [[params.social]]
+    name = "thingiverse"
+    url  = "https://www.thingiverse.com/morjor/designs"
+    
+  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/garett-morrison-666595166"
 
