@@ -4,14 +4,13 @@ title = "Garett Morrison"
 theme = "hello-friend-ng"
 themesDir = "themes/"
 
+
+[services.googleAnalytics]
+  id = "UA-196724901-1"
+
 paginate     = 10
 
 [params]
-  # dateform        = "Jan 2, 2006"
-  # dateformShort   = "Jan 2"
-  # dateformNum     = "2006-01-02"
-  # dateformNumTime = "2006-01-02 15:04"
-
   # Subtitle for home
   homeSubtitle = "Personal Blog"
 
@@ -28,6 +27,8 @@ paginate     = 10
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+
+  # Google Analytics 4
 
 [taxonomies]
     category = "blog"
