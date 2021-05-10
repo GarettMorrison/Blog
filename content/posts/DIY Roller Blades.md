@@ -85,4 +85,4 @@ With Version 2, I intended to resolve the oversights and errors of the first. In
 
 I consider this project to be a resounding success, and have used them a number of times wandering around my neighborhood. I may create a version 3, with proper brakes and cushioning that doesn't require you to wrap a washcloth around your legs, but for now I am just happy that I managed to create something usable for \~$50. 
 
-You can find the files availible for download on [my Thingiverse](https://www.thingiverse.com/thing:4854835)
+You can find the files availible for download on [Thingiverse](https://www.thingiverse.com/thing:4854835)
