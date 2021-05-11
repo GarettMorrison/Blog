@@ -1,0 +1,44 @@
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+	float: left;
+	width: 50%;
+
+	position: relative;
+	overflow: hidden;
+	/*padding-right: 0.5;*/
+}
+
+.breakHeader {
+	text-align: center;
+  margin: 0 auto;
+  // padding: 5px 10px;
+  position: relative;
+
+  font-size: 0.8rem;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  z-index: 1;
+
+
+  background: $light-background;
+  color: $light-color-secondary;
+  .dark-theme & {
+    background: $dark-background;
+    color: $dark-color-secondary;
+	}
+
+
+  hr {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    // margin-top: 15px;
+    z-index: 0;
+  }
+}

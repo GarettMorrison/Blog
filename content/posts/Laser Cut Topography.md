@@ -2,6 +2,11 @@
 title: "Laser Cut Topographical Map"
 date: 2021-01-13T00:51:29-06:00
 draft: false
+tags:
+- LaserCut
+- ProceduralGeneration
+- Python
+- Artsy
 ---
 {{< image src="/img/topo/close_up.jpg" alt="Close up" position="center" style="border-radius: 8px;" >}}
 
