@@ -5,7 +5,7 @@ theme = "hello-friend-ng"
 themesDir = "themes/"
 
 [services.googleAnalytics]
-  id = "UA-196724901-1"
+	id = "UA-196724901-1"
 
 
 paginate     = 10

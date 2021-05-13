@@ -14,11 +14,15 @@ import subprocess as sp
 #Open Files
 configIn = open("config.toml", "r")
 configOut = open("publishConfig.toml", "w")
-#Write analytics code to top
-configOut.write("[services.googleAnalytics]" + "\n"  )
-configOut.write("	id = \"UA-196724901-1\"" + "\n\n")
-#Write original file
-configOut.write(configIn.read())
+
+#Add google analytics code where flag is
+for line in configIn.readlines():
+	if line == "#Insert Google Analytics Here\n":
+		configOut.write("[services.googleAnalytics]" + "\n"  )
+		configOut.write("	id = \"UA-196724901-1\"" + "\n")
+	else:
+		configOut.write(line)
+
 #Save files
 configIn.close()
 configOut.close()
@@ -29,4 +33,4 @@ sp.run(["git", "add", "."])
 sp.run(["git", "status"])
 message = input("input git commit message:")
 sp.run(["git", "commit", "-m", message])
-sp.run(["git", "push"])
+sp.run(["git", "push", "garettmorrison"])

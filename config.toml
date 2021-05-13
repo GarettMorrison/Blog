@@ -4,7 +4,7 @@ title = "Garett Morrison"
 theme = "hello-friend-ng"
 themesDir = "themes/"
 
-
+#Insert Google Analytics Here
 
 
 paginate     = 10
