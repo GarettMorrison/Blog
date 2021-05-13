@@ -1,13 +1,11 @@
-[services.googleAnalytics]
-	id = "UA-196724901-1"
-
 baseURL = "https://garettmorrison.net/"
 languageCode = "en-us"
 title = "Garett Morrison"
 theme = "hello-friend-ng"
 themesDir = "themes/"
 
-
+[services.googleAnalytics]
+  id = "UA-196724901-1"
 
 
 paginate     = 10
