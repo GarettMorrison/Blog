@@ -1,5 +1,5 @@
 [services.googleAnalytics]
-  id = "UA-196724901-1"
+	id = "UA-196724901-1"
 
 baseURL = "https://garettmorrison.net/"
 languageCode = "en-us"
