@@ -1,5 +1,5 @@
 ---
-title: "In Progress"
+title: "In Progress / Shorts"
 date: 2021-05-11
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 
 
-There are a number of projects I am either still working on or have not yet written a full post about. This page is a way for me to track progress and have an online record of things that I am currently working on. 
+There are a number of projects I am either still working on or too small for full write-up. This page exists so I have some documentation of them without making 20 single-paragraph posts. 
 
 {{<NiceLine>}}
 
@@ -85,7 +85,7 @@ UCP, the software I use to run the laser cutter, has a weird quirk where if you 
 ### DrawBot
 I have been experimenting with progressively more complicated attempts to make a CNC plotter. This started as me wanting to better understand CNC machines by designing one from scratch, and has since gotten progressively more out of hand. My long term target for this project is to procedurally generate paths from a target image or pattern and draw it in real time on a canvas. I currently have ImageConv running well for greyscale images and am tuning the script to draw lines with minimal curving. I have some interesting ideas I want to attempt, such as building a neural net to imitate human color perception, using additional mediums such as spray paint, chalk, or acrylic, and coding a GUI to more easily control or configure the robot. 
 
-I have been working on two different plotter designs as the foundation of this project. ---Tether---, which moves the head by adjusting the length of a pair of supporting cords, and ---Arm---, which uses a custom servo spool system to drive a two-axis robotic arm. 
+I have been working on two different plotter designs as the foundation of this project. Tether, which moves the head by adjusting the length of a pair of supporting cords, and Arm, which uses a custom servo spool system to drive a two-axis robotic arm. 
 
 {{< rawhtml >}}
 <h4>Version 1</h4>

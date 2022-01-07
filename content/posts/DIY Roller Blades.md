@@ -62,7 +62,7 @@ As is usual with my personal projects, I wanted to keep the budget as cheap as p
 		<img src="/img/roller/Roller_V1_Side.jpg" alt="Side" style="width:100%">
 	</div>
 	<div class="columnRight">
-		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/5Qt2Pd4UqJQ?mute=1" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>	
+		<iframe class="resp-iframe" frameBorder="0" src="https://www.youtube.com/embed/5Qt2Pd4UqJQ?mute=1" gesture="media"  allow="encrypted-media" style="width:100%" allowfullscreen ></iframe>	
 	</div>
 </div>
 {{< /rawhtml >}}
