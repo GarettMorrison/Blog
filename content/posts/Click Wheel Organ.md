@@ -126,3 +126,8 @@ As you can see, 120 is a clear outlier. There are technically better approximati
 
 
 I'm unreasonably excited to complete my first original instrument. If anyone wants to build their own or take a close look, I've uploaded the CAD and code to [Thingiverse](https://www.thingiverse.com/thing:5500023). Feel free to shoot me an email if you have any questions or are building one for yourself!
+
+
+#### EDIT:
+
+This post was featured on the Hackaday [Blog](https://hackaday.com/2022/09/25/this-found-sound-organ-was-made-with-python-and-a-laser-cutter/) and [Podcast](https://hackaday.com/2022/09/30/hackaday-podcast-187-the-sound-of-gleeful-gerbils-the-song-of-the-hard-drive-and-a-lipstick-pickup-lullaby/)! 
