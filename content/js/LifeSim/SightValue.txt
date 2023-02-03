@@ -1,0 +1,17 @@
+0 - food algae
+1 - food creature
+2 - foodSplit
+3 - turnAtValue
+4 - moveAtValue
+5 - Rgb
+6 - rGb
+7 - rgB
+8 - herbivore
+9 - carnivore
+10 - aquatic
+11 - terrestrial
+12 - fur
+13- land terrain
+14 - shore terrain
+15 - ocean terrain
+16 - tundra terrain
