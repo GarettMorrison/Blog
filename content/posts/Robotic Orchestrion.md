@@ -4,7 +4,7 @@ date: 2022-08-30
 LastMod: 2022-08-30
 draft: true
 tags:
-- LaserCut
+- Laser Cut
 - Robotics
 - Musical Instrument
 ---

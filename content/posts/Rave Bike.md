@@ -5,7 +5,6 @@ date: 2021-08-08
 draft: false
 tags:
 - Arduino
-- LEDs
 - C++
 - Python
 - Artsy

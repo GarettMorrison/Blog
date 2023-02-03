@@ -3,7 +3,7 @@ title: "In Progress / Shorts"
 date: 2021-05-11
 draft: false
 tags:
-- LaserCut
+- Laser Cut
 - Python
 - Artsy
 ---

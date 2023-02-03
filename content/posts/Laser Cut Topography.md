@@ -3,8 +3,8 @@ title: "Laser Cut Topographical Map"
 date: 2021-01-13T00:51:29-06:00
 draft: false
 tags:
-- LaserCut
-- ProceduralGeneration
+- Laser Cut
+- Procedural Generation
 - Python
 - Artsy
 ---
