@@ -6,6 +6,7 @@ tags:
 - Music
 - Python
 - Artsy
+- Video
 ---
 
 I recently finished my DECtalk Choir project, which (mis)uses a text to speech system from the 80s to sing synchronized choral music. I decided to experiment with recording a video instead of writing an article.
