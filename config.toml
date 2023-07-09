@@ -38,12 +38,16 @@ paginate     = 10
 
   # Social icons
   [[params.social]]
-    name = "email"
-    url  = "mailto:garettm123@gmail.com"
+    name = "youtube"
+    url  = "https://www.youtube.com/@garettmorrison2609"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/GarettMorrison"
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mastodon.social/@garettm"
 
   [[params.social]]
     name = "thingiverse"
@@ -52,6 +56,11 @@ paginate     = 10
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/garett-morrison-666595166"
+	
+  [[params.social]]
+    name = "email"
+    url  = "mailto:garettm123@gmail.com"
+
 
 
 
